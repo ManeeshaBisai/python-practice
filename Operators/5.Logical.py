@@ -6,5 +6,7 @@ div2 = (num % 3 == 0 )
 if div1 and div2 :
     print("Divisible by both 2 and 3.")
 elif div1 or div2 :
-    print("divisible by only one.")
-    print(div1,div2)
+    print("2 -",div1)
+    print("3 -",div2)
+else :
+    print("not divisible by both nums")
