@@ -5,3 +5,10 @@ for num in nums :
     if num % 2 == 0 :
         break
     print(num)
+
+# Skip even numbers
+# Print all odd numbers between 1 to 10 using continue.
+for num in range(1,10):
+    if num % 2 == 0:
+        continue
+    print(num)
